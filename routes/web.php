@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ThemeController@goiTrangChu');
+Route::get('/san-pham', 'ThemeController@goiSanPham');
+Route::get('/category', 'ThemeController@goiCategory');
+Route::get('/kim', 'AdminDashboard@goiKim');
