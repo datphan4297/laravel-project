@@ -12,6 +12,10 @@ class ThemeController extends Controller
     }
 
     public function goiSanPham() {
-    	echo 'Day la trang sp';
+    	echo 'Day la trang san pham  111 kim  edited';
+    }
+
+    public function goiCategory () {
+    	echo 'ok';
     }
 }
