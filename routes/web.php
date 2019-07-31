@@ -15,3 +15,8 @@ Route::get('/', 'ThemeController@goiTrangChu');
 Route::get('/san-pham', 'ThemeController@goiSanPham');
 Route::get('/category', 'ThemeController@goiCategory');
 Route::get('/kim', 'AdminDashboard@goiKim');
+
+
+Route::get('/quanli', 'AdminDashboard@index')->name('admin.quanli');
+
+Route::get('/quanli/product', 'AdminDashboard@product')->name('admin.sanpham');
